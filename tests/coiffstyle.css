@@ -1,0 +1,43 @@
+nav
+{
+	border: 1px solid black;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+td, th
+{
+	border: 1px solid black;
+}
+
+caption
+{
+	caption-side: top;
+}
+
+:required
+{
+	background-color: red;
+}
+
+p
+{
+	color: blue;
+}
+
+@media screen and (max-width: 1024px)
+{
+	p
+	{
+		color: red;
+		background-color: black;
+		font-size: 1.2em;
+	}
+}
+

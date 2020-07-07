@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+      <head>
+          <meta charset="utf-8" />
+          <title>ma passion pour les animaux</title>
+      </head>
+      <body> 
+      <h1>les super amis de l'homme</h1>   
+          <p>voici mes animaux préférés</p>
+          <ol>
+             <li><strong>chat</strong></li>
+             <li>chien</li>
+             <li>cheval</li>
+          </ol>   
+      </body>
+</html>           
