@@ -47,8 +47,28 @@
 .lien2{
     margin-left: 230px;
 }
+.photo2{
+    display: flex;
+    position: relative;
+    top: 550px;
+    right: 768px;
+    width: 768px;
+    height: 300px;
+    margin-left: 0;
+}
 
 
+
+
+
+
+
+.page3{
+    display: none;
+}
+footer{
+    display: none;
+}
 
 
 }
