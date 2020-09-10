@@ -131,7 +131,7 @@ footer{
     left: 620px;
 }
 }
-@media (orientation:landscape) {
+@media (max-width: 1024px) and (orientation:landscape) {
 .photo1{
     width: 1024px;  
 }
