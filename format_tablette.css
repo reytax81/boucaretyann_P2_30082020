@@ -133,6 +133,70 @@ footer{
     position: absolute;
     left: 620px;
 }
+}
 
+@media (orientation:landscape) {
+.photo1{
+    width: 1024px;  
+}
+.ph5, .ph6{
+    left: 740px;
+}
+.ph3, .ph4{
+    left: 370px;
+}
+.lien2{
+    left: 450px;
+}
+.photo2{
+    width: 1024px;
+    right: 1024px;
+}
+.ph8{
+    left: 620px;
+}.ph9{
+    left: 320px;
+}
+.page3{
+    margin-left: 120px;
+}
+footer{
+    width: 1024px;
+}
+.assist{
+    left: 850px;
+}
+.logement{
+    margin-left: 200px;
+}
 
+}
+@media (max-width: 740px) and (orientation: landscape){
+  .ph1, .ph2{
+      left: -20px;
+  }
+    .ph3, .ph4{
+      left: 230px;
+  } 
+  .ph5, .ph6{
+      left: 480px;
+  }
+  .ph7{
+      left: -20px;
+  }
+  .ph8{
+      left: 350px;
+  }
+  .ph9{
+      left: 180px;
+  }
+  .page3{
+      margin-left: 0px;
+  }
+  .logement{
+      margin-left: 40px;
+  }
+  .assist{
+      left: 580px;
+  }
 }
