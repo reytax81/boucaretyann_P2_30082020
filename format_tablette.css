@@ -1,7 +1,12 @@
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
 
 
-
+.filter2{
+   padding-left: 10px; 
+}
+.filter2 div{
+    padding-right: 10px;
+}
 
 
 
