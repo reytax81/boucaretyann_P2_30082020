@@ -1,6 +1,4 @@
 @media (min-width: 481px) and (max-width: 1024px) {
-
-
 .filter2{
    padding-left: 10px; 
 }
@@ -83,8 +81,7 @@
     top: 490px;
     height: 900px;
     left: 80px;
-    right: -80px;
-   
+    right: -80px; 
 }
 .lieu2{
     display: flex;
@@ -134,7 +131,6 @@ footer{
     left: 620px;
 }
 }
-
 @media (orientation:landscape) {
 .photo1{
     width: 1024px;  
@@ -169,7 +165,6 @@ footer{
 .logement{
     margin-left: 200px;
 }
-
 }
 @media (max-width: 740px) and (orientation: landscape){
   .ph1, .ph2{
