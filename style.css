@@ -41,7 +41,7 @@ ul li a:hover {
 /*definition de le police*/
   @font-face{
 	  font-family: 'raleway';
-	  src: url(Raleway-Regular.ttf) format('svg');
+	  src: url(Raleway/static/Raleway-VariableFont_wght);
   }
 
   body{
