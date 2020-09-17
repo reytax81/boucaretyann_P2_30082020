@@ -744,8 +744,9 @@ footer{
 	line-height: 15px;
 	font-size: smaller;
 }
-
 /* fin Footer*/
+
+/* version mobile */
 @media all and (max-width: 480px)
 {
 
