@@ -79,8 +79,6 @@ ul li a:hover {
  }
  .menu{
 	display: flex;
-	transition-duration: 2s;
-	transition-property: all; 
 }
 .menu1{
 	width: 20px;
@@ -91,8 +89,6 @@ ul li a:hover {
    background-color: #a1c1f0;
    position: relative;
    margin-right: -10px;
-   transition-duration: 2s;
-   transition-property: all;
 }
 .menu2{
 	border-style: hidden;
@@ -107,14 +103,8 @@ ul li a:hover {
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-right-style: solid;
-	transition-duration: 2s;
-	transition-property: all;
-}
-.menu:hover{
-	transform: scale(2);
 }
 .menu1:hover{
-	transform: scale(2);
 	background-color: #f2f2f2;
 }
 .menu2:hover{
@@ -123,8 +113,6 @@ ul li a:hover {
 }
 .menu3{
 	display: flex;
-	transition-duration: 2s;
-	transition-property: all;
 }
 .menu4{
 	width: 20px;
@@ -135,8 +123,6 @@ ul li a:hover {
    background-color: #a1c1f0;
    position: relative;
    margin-right: -10px;
-   transition-duration: 2s;
-   transition-property: all;  
 }
 .menu5{
 	border-style: hidden;
@@ -151,14 +137,8 @@ ul li a:hover {
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-right-style: solid;
-	transition-duration: 2s;
-	transition-property: all;
-}
-.menu3:hover{
-	transform: scale(2);
 }
 .menu4:hover{
-	transform: scale(2);
 	background-color: #f2f2f2;
 }
 .menu5:hover{
@@ -167,8 +147,6 @@ ul li a:hover {
 }
 .menu6{
 	display: flex;
-	transition-duration: 2s;
-	transition-property: all;	
 }
 .menu7{
 	width: 20px;
@@ -179,8 +157,6 @@ ul li a:hover {
    background-color: #a1c1f0;
    position: relative;
    margin-right: -10px;
-   transition-duration: 2s;
-   transition-property: all;  
 }
 .menu8{
 	border-style: hidden;
@@ -195,14 +171,8 @@ ul li a:hover {
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-right-style: solid;
-	transition-duration: 2s;
-	transition-property: all;
-}
-.menu6:hover{
-	transform: scale(2);
 }
 .menu7:hover{
-	transform: scale(2);
 	background-color: #f2f2f2;
 }
 .menu8:hover{
@@ -211,8 +181,6 @@ ul li a:hover {
 }
 .menu9{
 	display: flex;
-	transition-duration: 2s;
-	transition-property: all;	
 }
 .menu10{
 	width: 20px;
@@ -223,8 +191,6 @@ ul li a:hover {
    background-color: #a1c1f0;
    position: relative;
    margin-right: -10px;
-   transition-duration: 2s;
-   transition-property: all;  
 }
 .menu11{
 	border-style: hidden;
@@ -239,14 +205,8 @@ ul li a:hover {
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-right-style: solid;
-	transition-duration: 2s;
-	transition-property: all;
-}
-.menu9:hover{
-	transform: scale(2);
 }
 .menu10:hover{
-	transform: scale(2);
 	background-color: #f2f2f2;
 }
 .menu11:hover{
@@ -390,14 +350,9 @@ ul li a:hover {
 	height: 190px;
 }
 .ph1bis{
-	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
 	width: 230.66px;
 	height: 100px;
-	transition-duration: 2s;
-	transition-property: all; 
-}
-.ph1bis:hover{
-	transform: scale(2);
 }
 .ph2{
 	grid-column: 2;
@@ -412,14 +367,9 @@ ul li a:hover {
 	background-color: white;
 }
 .ph2bis{
-	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
 	width: 230.66px;
 	height: 100px;
-	transition-duration: 2s;
-	transition-property: all; 
-}
-.ph2bis:hover{
-	transform: scale(2);
 }
 .ph3{
 	grid-column: 3;
@@ -434,14 +384,9 @@ ul li a:hover {
 	background-color: white;
 }
 .ph3bis{
-	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
 	width: 230.66px;
 	height: 100px;
-	transition-duration: 2s;
-	transition-property: all; 
-}
-.ph3bis:hover{
-	transform: scale(2);
 }
 .ph4{
 	grid-column: 1;
@@ -457,14 +402,9 @@ ul li a:hover {
 	background-color: white;
 }
 .ph4bis{
-	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
 	width: 230.66px;
 	height: 100px;
-	transition-duration: 2s;
-	transition-property: all; 
-}
-.ph4bis:hover{
-	transform: scale(2);
 }
 .ph5{
 	grid-column: 2;
@@ -480,14 +420,9 @@ ul li a:hover {
 	background-color: white;
 }
 .ph5bis{
-	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
 	width: 230.66px;
 	height: 100px;
-	transition-duration: 2s;
-	transition-property: all; 
-}
-.ph5bis:hover{
-	transform: scale(2);
 }
 .ph6{
 	grid-column: 3;
@@ -503,14 +438,9 @@ ul li a:hover {
 	background-color: white;
 }
 .ph6bis{
-	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
 	width: 230.66px;
 	height: 100px;
-	transition-duration: 2s;
-	transition-property: all; 
-}
-.ph6bis:hover{
-	transform: scale(2);
 }
 .photo2{
 	display: grid;
@@ -599,18 +529,7 @@ ul li a:hover {
 .ph7bis, .ph8bis, .ph9bis{
 	width: 150px;
 	height: 120px;
-	border-radius: 20px;
-	transition-duration: 2s;
-	transition-property: all; 
-}
-.ph7bis:hover{
-	transform: scale(2);
-}
-.ph8bis:hover{
-	transform: scale(2);
-}
-.ph9bis:hover{
-	transform: scale(2);
+	border-radius: 20px 0px 0px 20px;
 }
 /* FIN DU CADRE PHOTO*/
 
@@ -745,6 +664,7 @@ footer{
 	font-size: smaller;
 }
 /* fin Footer*/
+
 
 /* version mobile */
 @media all and (max-width: 480px)
