@@ -12,7 +12,6 @@ header{
 li{
 	list-style-type: none;
 	float: left;
-	font-weight: bold;
 }
 .li2{
 padding-left: 40px;
@@ -36,6 +35,7 @@ li a{
 ul li a:hover {
 	color: #0065fc;
 	text-decoration-line: overline;
+	text-decoration-thickness: 0.2rem;
 	text-decoration-color: #0065fc;
 }
 /*definition de le police*/
