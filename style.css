@@ -441,6 +441,11 @@ ul li a:hover {
 	width: 230.66px;
 	height: 100px;
 }
+.ph1bis, .ph2bis, .ph3bis, .ph4bis, .ph5bis, .ph6bis{
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-left: 2px;
+}
 .photo2{
 	display: grid;
 	grid-template-rows: repeat(4, 1fr);
@@ -532,6 +537,7 @@ ul li a:hover {
 	width: 150px;
 	height: 120px;
 	border-radius: 20px 0px 0px 20px;
+	padding-left: 2px;
 }
 /* FIN DU CADRE PHOTO*/
 
