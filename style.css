@@ -445,6 +445,7 @@ ul li a:hover {
 	padding-right: 2px;
 	padding-top: 2px;
 	padding-left: 2px;
+	object-fit: cover;
 }
 .photo2{
 	display: grid;
@@ -538,6 +539,7 @@ ul li a:hover {
 	height: 120px;
 	border-radius: 20px 0px 0px 20px;
 	padding-left: 2px;
+	object-fit: cover;
 }
 /* FIN DU CADRE PHOTO*/
 
