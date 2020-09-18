@@ -5,8 +5,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="Robots" content="all" />
-	<meta name="viewport" content="width=device-width"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="format_tablette.css">
 	<title>reservia</title>
@@ -16,15 +14,20 @@
 	<header>
 		<img src="imagesvg/Reservia@3x.png" alt="logo du site" id="logo" title="reservia">
 		<nav>
+			<!-- les id servent exclusivement dans les @media pour effectuer des changements -->
 			<ul>
 				  <li><a id="un" href="#hebergement" title="aller à la section Hébergement">Hébergements</a></li>
 				  <li class="li2"><a id="deux" href="#activite" title="aller à la section Activité">Activités</a></li>
 				  <li class="li3"><a id="trois" href="#" title="s'inscrire">S'inscrire</a></li>
 			</ul>
 		</nav>
+		<!-- sert pour les formats mobile pour afficher les barre bleu du design -->
 		<div class="barre"></div>
 		<div class="barre2"></div>
 	</header>
+	<!-- le decoupage me parait plus logique en faisant page1 etc... ainsi que main1 etc... 
+	le reste n'est que logique de fabrication, les decoupage avec chiffrement servent a montrer quel place
+pour la div ou autres concerné-->
 	<section class="page1">
 		<div class="main1">
 			<h3>Trouvez votre hébergement pour des vacances de rêve</h3>
@@ -68,6 +71,8 @@
 
 		</div>
 	</section>
+	<!-- les class ou div qui à premiere vu n'ont pas d'importance ont surement été utilisé pour 
+	les @media entre les deux fichier css pour effectuer des reglages -->
 	<section class="page2">
 		<div class="photo1">
 			<h2 class="lieu">Hébergements à Marseille</h2>
