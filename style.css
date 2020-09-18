@@ -750,7 +750,11 @@ margin: 0;
 	width: 150px;
 }
 .cherche{
-	width: 100px;
+	width: 50px;
+	background: url(imagesvg/search-solid.svg) no-repeat center;
+	background-color: #0065fc;
+	color: transparent;
+	background-size: 20px;
 }
 h3{
 	line-height: 20px;
