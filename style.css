@@ -789,6 +789,9 @@ display: flex;
 	margin-left: -50px;
 	margin-top: 130px;
 }
+.menu6, .menu9{
+	left: 80px;
+}
 .info{
 	margin-top: 120px;
 }	
