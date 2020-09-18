@@ -536,10 +536,14 @@ ul li a:hover {
 /*debut du cadre Activité*/
 .page3{
 	margin-left: 20px;
+	margin-top: 50px;
 }
 .groupe{
 	display: grid;
 	grid-template-columns: repeat(4, 2fr);
+}
+.lieu2{
+	margin-bottom: 20px;
 }
 .gr1{
 	margin-right: 50px;

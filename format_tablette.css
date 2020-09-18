@@ -195,3 +195,21 @@ footer{
       left: 580px;
   }
 }
+@media (min-width: 1440px) and (max-width: 1440px){
+    ul{
+        left: 850px;
+    }
+   .gr1, .gr2, .gr2, .gr3, .gr4{
+       width: 268px;
+   }
+   .gr2{
+       margin-left: -40px;
+   }
+   .gr3{
+       margin-left: -80px;
+   }
+   .gr4{
+       margin-left: -120px;
+   }
+
+}
