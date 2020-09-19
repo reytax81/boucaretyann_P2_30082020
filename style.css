@@ -709,6 +709,11 @@ ul{
 	color: transparent;
 	background-size: 20px;
 }
+.cherche:active{
+	color: transparent;
+	background-color: black;
+}
+
 h3{
 	line-height: 20px;
 	line-break: loose;
