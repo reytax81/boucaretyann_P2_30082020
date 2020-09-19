@@ -1,14 +1,18 @@
 
 /*header ok */
-header{
-	width: max-content;
+body, header{
+	max-width: 1440px;
+}
+body{
+	margin: 0;
 }
  /*logo*/
 #logo{
-	max-width: 25%;
+	max-width: 7%;
 	margin-left: 20px;
  }
 /*navigation ancre*/
+
 li{
 	list-style-type: none;
 	float: left;
@@ -31,12 +35,12 @@ li a{
 }
 #trois{
 	color: #0065fc;
+	font-weight: bold;
 }
 ul li a:hover {
 	color: #0065fc;
-	text-decoration-line: overline;
-	text-decoration-thickness: 0.2rem;
-	text-decoration-color: #0065fc;
+	border-top: #0065fc solid 3px;
+	padding-top: 13px;
 }
 /*definition de le police*/
   @font-face{
@@ -44,7 +48,7 @@ ul li a:hover {
 	  src: url(Raleway/Raleway-VariableFont_wght.ttf);
   }
 
-  body, header, footer{
+  body, header, footer, button, input{
 	  font-family: 'raleway', sans-serif;
   }
 
@@ -77,10 +81,7 @@ ul li a:hover {
 	 border-radius: 25px 25px 25px 25px;
 	 background-color: #a1c1f0;
  }
- .menu{
-	display: flex;
-}
-.menu1{
+.menu1, .menu4, .menu7, .menu10{
 	width: 20px;
 	height: 20px;
    padding: 11px;
@@ -89,81 +90,19 @@ ul li a:hover {
    background-color: #a1c1f0;
    position: relative;
    margin-right: -10px;
+}
+.menu, .menu3, .menu6, .menu9{
+	display: flex;
+}
+.menu1:hover, .menu2:hover, .menu4:hover, .menu5:hover, .menu7:hover, .menu8:hover, 
+.menu10:hover, .menu11:hover{
+	background-color: #f2f2f2;
 }
 .menu2{
 	border-style: hidden;
 	border-radius: 0px 20px 20px 0px;
-	padding: 9px;
+	padding-left: 30px;
 	font-weight: bold;
-	text-align: end;
-	color: black;
-	width: 120px;
-	height: 45px;
-	margin: -10px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-right-style: solid;
-}
-.menu1:hover{
-	background-color: #f2f2f2;
-}
-.menu2:hover{
-	background-color: #f2f2f2;
-	box-shadow: 10px 5px 5px #4e4848;
-}
-.menu3{
-	display: flex;
-}
-.menu4{
-	width: 20px;
-	height: 20px;
-   padding: 11px;
-   border-radius: 25px;
-   border-style: none;
-   background-color: #a1c1f0;
-   position: relative;
-   margin-right: -10px;
-}
-.menu5{
-	border-style: hidden;
-	border-radius: 0px 20px 20px 0px;
-	padding: 9px;
-	font-weight: bold;
-	text-align: center;
-	color: black;
-	width: 110px;
-	height: 45px;
-	margin: -10px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-right-style: solid;
-}
-.menu4:hover{
-	background-color: #f2f2f2;
-}
-.menu5:hover{
-	background-color: #f2f2f2;
-	box-shadow: 10px 5px 5px #4e4848;
-}
-.menu6{
-	display: flex;
-}
-.menu7{
-	width: 20px;
-	height: 20px;
-   padding: 11px;
-   border-radius: 25px;
-   border-style: none;
-   background-color: #a1c1f0;
-   position: relative;
-   margin-right: -10px;
-}
-.menu8{
-	border-style: hidden;
-	border-radius: 0px 20px 20px 0px;
-	padding: 9px;
-	font-weight: bold;
-	text-align: center;
 	color: black;
 	width: 135px;
 	height: 45px;
@@ -172,25 +111,31 @@ ul li a:hover {
 	border-bottom-style: solid;
 	border-right-style: solid;
 }
-.menu7:hover{
-	background-color: #f2f2f2;
+.menu5{
+	border-style: hidden;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 30px;
+	font-weight: bold;
+	color: black;
+	width: 110px;
+	height: 45px;
+	margin: -10px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
 }
-.menu8:hover{
-	background-color: #f2f2f2;
-	box-shadow: 10px 5px 5px #4e4848;
-}
-.menu9{
-	display: flex;
-}
-.menu10{
-	width: 20px;
-	height: 20px;
-   padding: 11px;
-   border-radius: 25px;
-   border-style: none;
-   background-color: #a1c1f0;
-   position: relative;
-   margin-right: -10px;
+.menu8{
+	border-style: hidden;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 30px;
+	font-weight: bold;
+	color: black;
+	width: 135px;
+	height: 45px;
+	margin: -10px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
 }
 .menu11{
 	border-style: hidden;
@@ -205,13 +150,6 @@ ul li a:hover {
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-right-style: solid;
-}
-.menu10:hover{
-	background-color: #f2f2f2;
-}
-.menu11:hover{
-	background-color: #f2f2f2;
-	box-shadow: 10px 5px 5px #4e4848;
 }
   
 #main4{
@@ -257,7 +195,7 @@ ul li a:hover {
 	height: auto;
 }
 .search{
-	width: 240px;
+	width: 200px;
 	margin-top: 20px;
 	font-weight: bold;
 	text-align: center;
@@ -268,7 +206,7 @@ ul li a:hover {
 }
 .cherche{
 	margin-top: 20px;
-	width: 150px;
+	width: 120px;
 	border-left: none;
 	border-color: #deebff;
 	background-color: #0065fc;
@@ -689,7 +627,9 @@ footer{
 /* version mobile */
 @media all and (max-width: 480px)
 {
-
+#logo{
+	max-width: 25%;
+}
 footer{
 	display: block;
 	position: absolute;
@@ -756,9 +696,9 @@ ul{
 	width: min-content;
 }
 .main2{
-width: 500px;
-height: 70px;
-margin: 0;
+	width: 500px;
+	height: 70px;
+	margin-left: 40px;
 }
 .search{
 	width: 150px;
@@ -782,7 +722,7 @@ display: flex;
 .filter{
 	display: block;
 	position: absolute;
-	top: 280px;
+	top: 270px;
 	margin-top: 20px;
 }
 .menu{
@@ -798,17 +738,15 @@ display: flex;
 .menu6{
 	position: absolute;
 	padding: 0;
-	margin-left: -50px;
 	margin-top: 75px;
 }
 .menu9{
 	position: absolute;
 	padding: 0;
-	margin-left: -50px;
 	margin-top: 130px;
 }
 .menu6, .menu9{
-	left: 80px;
+	left: 20px;
 }
 .info{
 	margin-top: 120px;
@@ -839,6 +777,7 @@ display: flex;
 	height: auto;
 	margin: 15px;
 	padding: 0;
+	margin-left: 35px;
 }
 .ph1bis{
 	width: 300px;
@@ -851,6 +790,7 @@ display: flex;
 	height: auto;
 	margin: 15px;
 	padding: 0;
+	margin-left: 35px;
 }
 .ph2bis{
 	width: 300px;
@@ -863,6 +803,7 @@ display: flex;
 	height: auto;
 	margin: 15px;
 	padding: 0;
+	margin-left: 35px;
 }
 .ph3bis, .ph4bis, .ph5bis, .ph6bis{
 	width: 300px;
@@ -895,12 +836,12 @@ display: flex;
 .ph7{
 	width: 300px;
 	height: auto;
-	margin-left: 20px;
+	margin-left: 35px;
 }
 .ph8{
 	width: 300px;
 	height: max-content;
-	margin-left: 25px;
+	margin-left: 35px;
 }
 .com1, .com2{
 	font-size: 0.7em;
@@ -916,13 +857,15 @@ display: flex;
 .ph9{
 	width: 300px;
 	height: max-content;
-	margin-left: 25px;
+	margin-left: 35px;
 
 }
 .groupe{
 	display: block;
 	position: absolute;
 	top: 2630px;
+	margin-left: 8px;
+	margin-top: 10px;
 }
 #activite{
 	margin: 0;
