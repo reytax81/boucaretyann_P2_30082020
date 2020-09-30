@@ -623,6 +623,18 @@ footer{
 	line-height: 15px;
 	font-size: smaller;
 }
+.propos2 a{
+	text-decoration: none;
+	color: black;
+}
+.logement2 a{
+	text-decoration: none;
+	color: black;
+}
+.assist2 a{
+	text-decoration: none;
+	color: black;
+}
 /* fin Footer*/
 
 
