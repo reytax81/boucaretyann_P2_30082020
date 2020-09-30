@@ -150,6 +150,9 @@ ul li a:hover {
 	border-bottom-style: solid;
 	border-right-style: solid;
 }
+.menu2:active, .menu5:active, .menu8:active, .menu11:active{
+	box-shadow: 0px 3px 3px 3px grey;
+}
   
 #main4{
 	display: flex;
