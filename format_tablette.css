@@ -213,3 +213,17 @@ footer{
    }
 
 }
+@media (min-width: 1920px) and (max-width: 3850px){
+    ul{
+        left: 850px;
+    }
+    .gr1, .gr2, .gr3, .gr4{
+        width: 268px;
+        margin: 0;
+        padding: 0;
+    }
+    .groupe{
+        padding-right: 150px;
+    }
+}
+
